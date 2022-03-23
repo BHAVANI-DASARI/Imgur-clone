@@ -1,0 +1,356 @@
+body{
+    background-color: #2E3035;
+    font-family: sans-serif;
+    width: 100%;
+    color:#FFFFF4;
+}
+
+#navbar{
+    background-image: url("https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png");
+    background-repeat: no-repeat;
+    height:50vh;
+  width:100%;
+}
+#bar{
+    display: flex;
+    padding :1%;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgur{
+   width:230px;
+}
+.logo{
+    display: inline-block;
+}
+.newimg{
+    margin-left: 2%;
+    background-color: #31BE7C;
+    color: white;
+    width:100px;
+ border-radius: 4%;
+ padding :1%;
+   display: inline-block;
+    /* padding:0.5rem; */
+}
+.newimg1{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2%;
+}
+/* .newimg2{
+   margin-left: 1%;
+} */
+
+.search{
+    background-color: #454469;
+    width:35%;
+    padding: 0.7%;
+    border-radius: 2%;
+    display: flex;
+    justify-content:space-evenly ;
+    /* border:1px solid red; */
+}
+.text{
+    width:84%;
+    outline: none;
+    background-color: #454469;
+    border:none;
+    margin-right: 3%;
+    color: white;
+}
+.search1{
+    margin-top: 0.7%;
+    background: transparent;
+    border: none;
+}
+.gofree{
+    background-color: #6432F9;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 2%;
+}
+#display{
+    display: flex;
+    min-width:30%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.message{
+    font-size: 24px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0.6px;
+    color: #aed8ea;
+    text-align: center;
+    margin-top: 12px;
+    min-height: 34px;
+    position: relative;
+}
+.tags1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:85%;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 1.3px;
+    text-align: left;
+    color: #B9B8C7;
+}
+
+#tags{
+    padding: 10px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:85%;
+    margin: auto;
+     flex-wrap: wrap; 
+}
+#box1{
+    background-image: url("https://ethereumworldnews.com/wp-content/uploads/2018/04/tothemoon.jpg");
+    height: 130px;
+    background-size: cover;
+    width: 180px;
+}
+.box2{
+    background-image: url("https://images.pexels.com/photos/4431922/pexels-photo-4431922.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    height: 130px;
+    background-size: cover;
+    width: 110px;
+    position: relative;
+    border: 1px solid rgb(77,84,154);
+    border-radius: 0.5rem;
+}
+#box3{
+    background-image: url("https://images.pexels.com/photos/2832441/pexels-photo-2832441.png?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    height: 130px;
+    background-size: cover;
+    width: 110px;
+    position: relative;
+    border: 1px solid rgb(77,84,154);
+    border-radius: 0.5rem;
+}
+#box2_text{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0.5rem;
+    background-color: rgb(77,84,154);
+    /* padding: 10px; */
+    text-align: center;
+    width: 100%;
+    line-height: 30px;
+}
+
+#box1{
+    position: relative;
+    /* width: auto; */
+}
+#box1_text{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    line-height: 30px;
+    background-color: rgb(38, 96, 110);
+    border-radius: 0.5rem;
+}
+#user{
+    background-color: rgb(52,207,168);
+    font-size: 20px;
+    color: wheat;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+}
+
+  .bottomdiv{
+    display: flex;
+    justify-content: space-between;
+   color:#8E929A;
+  }
+  #data1{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 10px;
+    width:85%;
+    margin: auto;
+  }
+  
+  .imgdiv{
+    width: 100%;
+    border-radius: 2%;
+    /* height: 100%; */
+    /* overflow: hidden; */
+  }
+  .child_div{
+    width: 100%;
+    border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .votingdiv,.commentdiv,.viewdiv{
+    font-weight: 400;
+    font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.3px;
+      opacity: 0.65;
+      margin: 0.25rem;
+  }
+  .votingdiv>div>svg:hover{
+    color:green;
+  }
+  .Vote-down:hover{
+    color:red;
+  }
+  .commentdiv:hover{
+    color:whitesmoke;
+  }
+  .viewdiv:hover{
+    color:whitesmoke;
+  }
+  .child_div:hover{
+    background-color: #5C5C5C;
+    color:text;
+     opacity: 0.8;
+    
+    transition: 2s;
+  }
+
+
+@media only screen and (max-width:1200px){
+    .text{
+        width:80%;
+    }   
+}
+@media only screen and (max-width:1250px){
+    #navbar{
+        height: 55vh;
+    }
+}
+@media only screen and (max-width:1410px){
+    #tags>div:nth-child(10){
+        display: none;
+    }
+}
+@media only screen and (max-width:1300px){
+    #tags>div:nth-child(9){
+        display: none;
+    }
+}
+@media only screen and (max-width:1190px){
+    #tags>div:nth-child(8){
+        display: none;
+    }
+}
+@media only screen and (max-width:1030px){
+    #tags>div:nth-child(7){
+        display: none;
+    }
+}
+@media only screen and (max-width:890px){
+    #tags>div:nth-child(6){
+        display: none;
+    }
+}
+@media only screen and (max-width:760px){
+    #tags>div:nth-child(5){
+        display: none;
+    }
+    .imgur{
+      max-width:100px;
+    }.newimg{
+        display: none;
+    }
+    .post{
+        display: none;
+    }
+    #display{
+        min-width: 10%;
+    }
+    #user{
+        float:right
+    }
+   
+}
+@media only screen and (max-width:630px){
+    #tags>div:nth-child(4){
+        display: none;
+    }
+    .name{
+        display: none;
+    }
+}
+@media only screen and (max-width:560px){
+    .search{
+        width:45%;
+    }
+    .text{
+        width:70%;
+    }
+}
+@media only screen and (max-width:500px){
+    #tags>div:nth-child(3){
+        display: none;
+    }
+
+}
+@media only screen and (max-width:360px){
+    #tags>div:nth-child(2){
+        display: none;
+    }
+}
+@media only screen and (max-width:983px){
+    .name{
+        display: none;
+    }
+}
+@media only screen and (max-width:940px){
+    /* .text{
+        width:70%;
+    } */
+
+    .search{
+        width:35%;
+    }
+}
+@media only screen and (max-width:800px){
+    .imgur{
+        width:210px;
+    }
+    .text{
+        width:74%;
+    }
+    .newimg{
+        width:90px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+ 
+}
+@media only screen and (max-width:284px){
+.tags1{
+    display: none;
+}
+}
+@media screen and (max-width: 500px){
+    #data1{
+      grid-template-columns: repeat(1,auto)
+    }
+  }
+  @media screen and (min-width: 501px) and  (max-width: 940px){
+    #data1{
+      grid-template-columns: repeat(2,auto)
+    }
+  }
+  @media screen  and (min-width: 940px) and (max-width: 1180px){
+    #data1{
+      grid-template-columns: repeat(3,auto);
+      grid-gap: 10px;
+    }
+  }
+
